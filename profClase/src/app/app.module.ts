@@ -6,12 +6,14 @@ import { ListProfComponent } from './list-prof/list-prof.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
+import { StorageComponent } from './storage/storage.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListProfComponent
+    ListProfComponent,
+    StorageComponent
   ],
   imports: [
     BrowserModule,
